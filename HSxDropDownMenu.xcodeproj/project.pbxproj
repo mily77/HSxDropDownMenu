@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1667594212FE2E500F98191 /* DropDownMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1667593212FE2E500F98191 /* DropDownMenuView.swift */; };
 		A1A278AE212EAAC7006FA277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A278AD212EAAC7006FA277 /* AppDelegate.swift */; };
 		A1A278B0212EAAC7006FA277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A278AF212EAAC7006FA277 /* ViewController.swift */; };
 		A1A278B3212EAAC7006FA277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A278B1212EAAC7006FA277 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1667593212FE2E500F98191 /* DropDownMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuView.swift; sourceTree = "<group>"; };
 		A1A278AA212EAAC7006FA277 /* HSxDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSxDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A278AD212EAAC7006FA277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A278AF212EAAC7006FA277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1667592212FE24900F98191 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1667593212FE2E500F98191 /* DropDownMenuView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A1A278A1212EAAC7006FA277 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		A1A278AC212EAAC7006FA277 /* HSxDropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				A1667592212FE24900F98191 /* Classes */,
 				A1A278AD212EAAC7006FA277 /* AppDelegate.swift */,
 				A1A278AF212EAAC7006FA277 /* ViewController.swift */,
 				A1A278B1212EAAC7006FA277 /* Main.storyboard */,
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1667594212FE2E500F98191 /* DropDownMenuView.swift in Sources */,
 				A1A278B0212EAAC7006FA277 /* ViewController.swift in Sources */,
 				A1A278AE212EAAC7006FA277 /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
 				INFOPLIST_FILE = HSxDropDownMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
 				INFOPLIST_FILE = HSxDropDownMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
