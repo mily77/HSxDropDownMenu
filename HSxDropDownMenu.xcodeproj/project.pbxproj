@@ -15,6 +15,8 @@
 		A1A278B8212EAAC9006FA277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A278B6212EAAC9006FA277 /* LaunchScreen.storyboard */; };
 		A1A278C3212EAACA006FA277 /* HSxDropDownMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A278C2212EAACA006FA277 /* HSxDropDownMenuTests.swift */; };
 		A1A278CE212EAACA006FA277 /* HSxDropDownMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A278CD212EAACA006FA277 /* HSxDropDownMenuUITests.swift */; };
+		A1BD07202134FBBC00E2F8FD /* DropDownMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD071F2134FBBC00E2F8FD /* DropDownMenuView.xib */; };
+		A1BD072221354DC700E2F8FD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD072121354DC700E2F8FD /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A1A278C9212EAACA006FA277 /* HSxDropDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSxDropDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A278CD212EAACA006FA277 /* HSxDropDownMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSxDropDownMenuUITests.swift; sourceTree = "<group>"; };
 		A1A278CF212EAACA006FA277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BD071F2134FBBC00E2F8FD /* DropDownMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownMenuView.xib; sourceTree = "<group>"; };
+		A1BD072121354DC700E2F8FD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				A1667593212FE2E500F98191 /* DropDownMenuView.swift */,
+				A1BD071F2134FBBC00E2F8FD /* DropDownMenuView.xib */,
+				A1BD072121354DC700E2F8FD /* MainViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 			files = (
 				A1A278B8212EAAC9006FA277 /* LaunchScreen.storyboard in Resources */,
 				A1A278B5212EAAC9006FA277 /* Assets.xcassets in Resources */,
+				A1BD07202134FBBC00E2F8FD /* DropDownMenuView.xib in Resources */,
 				A1A278B3212EAAC7006FA277 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +277,7 @@
 				A1667594212FE2E500F98191 /* DropDownMenuView.swift in Sources */,
 				A1A278B0212EAAC7006FA277 /* ViewController.swift in Sources */,
 				A1A278AE212EAAC7006FA277 /* AppDelegate.swift in Sources */,
+				A1BD072221354DC700E2F8FD /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
